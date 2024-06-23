@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /login/
+Disallow: /register/
+
+# Allow search engines to crawl these public sections
+Allow: /services/
+Allow: /about/
+Allow: /contact/
+Allow: /events/
+Allow: /cleaning/
+Allow: /hospitality/
+Allow: /blog/
+
+# Sitemap location
+Sitemap: https://www.laligurans.com/sitemap.xml
